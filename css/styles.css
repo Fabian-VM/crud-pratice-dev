@@ -1,0 +1,28 @@
+::after,
+::before,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.card {
+  margin-top: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-text {
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.input-submit {
+  width: 200px;
+}
